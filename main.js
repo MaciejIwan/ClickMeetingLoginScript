@@ -1,10 +1,10 @@
-const nickname = `Maciej Iwan`;
-const mail = `235878@edu.p.lodz.pl`;
+const nickname = `Name Subname`;
+const mail = `youremail@edu.eu`;
 
 const lectures = [
-    { name: `KCK`, pass: `kck-wyklad` },
-    { name: `AOI`, pass: `AOI22` },
-    { name: `SK I`, pass: `sk2022` },
+    { name: `lecture1`, pass: `password` },
+    { name: `lecture4`, pass: `Pass21` },
+    { name: `math`, pass: `math2022` },
     { name: `PIO`, pass: `student` }
 ]
 
