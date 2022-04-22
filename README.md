@@ -5,20 +5,23 @@ The script allows you to automatically complete meetings data on the clickmeetin
 
 ##### Customize code to your needs: 
  - Complete the variables nickname and mail (`line 2 in ./main.js`) 
- - Add as many lectures as you need to array in `line 4 in ./main.js`. Lectures syntax example:
-
-    ```js
-    const lectures = [
-        { name: `lecture1`, pass: `password` },
-        { name: `lecture4`, pass: `Pass21` },
-        { name: `math`, pass: `math2022` },
-        { name: `PIO`, pass: `student` }
-    ]
-    ```
+ - Add as many lectures as you need to array in `line 4 in ./main.js`. Lecture object should contain:  
+     - (String) name - which should be part of regular title from ClickMeeting
+     - (String) pass - wich is passowrd needed to login.
+     - Lectures array example:
+        ```js
+        const lectures = [
+            { name: `lecture1`, pass: `password` },
+            { name: `lecture4`, pass: `Pass21` },
+            { name: `math`, pass: `math2022` },
+            { name: `PIO`, pass: `student` }
+        ]
+        ```
     
 #####  Add bookmarklet to your bookmark bar:
  - Copy the script and paste here https://mrcoles.com/bookmarklet/ to create bookmarklet code. 
  - Create empty bookmark in browser.
  - Edit bookmark URL by pasting generated bookmarklet code
 
+# To run script just click on bookmark
 # Enjoy!
